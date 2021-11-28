@@ -18,7 +18,15 @@ for (counter = 0; counter < 10; ++counter) {
   digitalWrite(2, LOW);
   digitalWrite(6, HIGH);
   digitalWrite(9, LOW);
-  delay(2000); // attendre 2 secondes
+  delay(1000); // attendre 2 secondes
+  digitalWrite(2, LOW);
+  digitalWrite(6, HIGH);
+  digitalWrite(9, LOW);
+  delay(1000); // attendre 2 secondes
+  digitalWrite(2, LOW);
+  digitalWrite(6, HIGH);
+  digitalWrite(9, LOW);
+  delay(1000); // attendre 2 secondes
   digitalWrite(2, HIGH);
   digitalWrite(6, LOW);
   digitalWrite(9, LOW);
